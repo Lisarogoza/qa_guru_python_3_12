@@ -1,3 +1,4 @@
+import pytest
 from allure_commons.types import Severity
 from selene.support.shared import browser
 import allure
