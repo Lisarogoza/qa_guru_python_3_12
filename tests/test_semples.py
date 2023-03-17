@@ -5,8 +5,8 @@ import allure
 
 @allure.tag('web')
 @allure.severity(Severity.NORMAL)
-@allure.label('owner', 'eva.shorina')
-@allure.feature('Авторизация')
+@allure.label('owner', 'xenia.r')
+@allure.feature('Login')
 @allure.link('https://github.com', name='Testing')
 def test_passed_1():
     browser.open('https://demoqa.com/automation-practice-form')
