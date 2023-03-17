@@ -51,6 +51,7 @@ def test_failed_1():
     browser.open('https://demoqa.com/automation-practice-form')
     assert 1 == 0
 
+
 def test_failed_2():
     browser.open('https://demoqa.com/automation-practice-form')
     assert 1 == 3
