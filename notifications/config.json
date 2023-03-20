@@ -1,10 +1,10 @@
 {
   "base": {
     "logo": "",
-    "project": "lisarogoza project",
-    "environment": "QA.GURU",
+    "project":  "${JOB_BASE_NAME}",
+    "environment": "PROD",
     "comment": "For homework 12",
-    "reportLink": "",
+    "reportLink": "${BUILD_URL}",
     "language": "en",
     "allureFolder": "allure-results/",
     "enableChart": true
