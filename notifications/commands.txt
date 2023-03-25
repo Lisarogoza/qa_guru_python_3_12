@@ -1,4 +1,4 @@
-# Для выполнения в винде curl -s -O /dev/null -X POST -H "Content-Type: application/json" -d "{\"chat_id\": \"{-827951819}\", \"text\": \"{Hallo!!}\", \"disable_notification\": false}"https://api.telegram.org/bot{6144583650:AAGv-NFm9UfZJb5rjZUJjL9P0vBoJU12nio}/sendMessage
+# Для выполнения в винде curl -s -O /dev/null -X POST -H "Content-Type: application/json" -d "{\"chat_id\": \"-827951819\", \"text\": \"Hallo!!\", \"disable_notification\": false" https://api.telegram.org/bot6144583650:AAGv-NFm9UfZJb5rjZUJjL9P0vBoJU12nio/sendMessage
 
 curl --location --request GET 'https://api.telegram.org/bot6144583650:AAGv-NFm9UfZJb5rjZUJjL9P0vBoJU12nio/sendMessage' \
 --header 'Content-Type: application/json' \
