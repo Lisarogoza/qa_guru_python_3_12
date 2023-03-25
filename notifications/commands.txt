@@ -2,13 +2,13 @@
 
 curl --location --request GET 'https://api.telegram.org/bot5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU/sendMessage' \
 --header 'Content-Type: application/json' \
---data '{"chat_id": "-1001865339983", "text": "this is your bot", "disable_notification": true}'
+--data '{"chat_id": "-827951819", "text": "this is your bot", "disable_notification": true}'
 
 https://api.telegram.org/bot5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU/getUpdates | jq .message.chat.id
 
 telegram token: 5937524798:AAFHU4oqpDHeCPKUVwNFEx8Z4l2SFnT1CtU
 #6144583650:AAGv-NFm9UfZJb5rjZUJjL9P0vBoJU12nio
-telegram chat: -1001865339983
+telegram chat: -827951819
 #-827951819
 #-1001988464760
 
